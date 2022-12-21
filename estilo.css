@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+  background: conic-gradient(#c44040, #f70098, #03e1f1, #ffe9a1, rgb(21, 255, 0));
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 2000px 2000px;
+  animation: rgb 5s ease infinite;
+  font-size: 30px;
+  width: 30%;
+  margin: auto;
+  border-radius: 12px;
+  position: relative;
+  top: 30px;
+  text-align: center;
+  cursor: default;
+  border: 2px solid #ffe9a1;
+  display: block;
+}
+@keyframes rgb {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 0 100%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.button {
+  background-color: transparent;
+  border: 2px solid #ffe9a1;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  bottom: -50px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  z-index: 2;
+  
+}
+.button:hover {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.699);
+  border: 2px solid #ffd4a3;
+}
+.Carousel .CarouselImg img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  position: relative;
+  align-content: center;
+  display: block;
+  margin: auto;
+  margin-top: 8%;
+  border: 3px solid rgb(255, 234, 143);
+}
+.bg-image {
+  background: url('https://thesportslite.com/wp-content/uploads/2022/11/france.webp') no-repeat center center fixed;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  margin: auto;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  border: 1px solid rgb(0, 0, 0);
+  
+}
+.Carousel .CarouselText p {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+
+}
+.CarouselText {
+  width: 50%;
+  margin: auto;
+  position: relative;
+  top: -200px;
+  right: -25px;
+}
+h2 {
+  position: relative;
+  top: 200px;
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+  top: 0;
+  background: conic-gradient(#1512da, #f70000, #03e1f1, #ffe9a1, rgb(0, 153, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 2000px 2000px;
+  animation: rgb 5s ease infinite;
+}
+.form1 {
+  border: 10px solid #f1f1f1;
+  margin: auto;
+  height: 50%;
+  width: 100%;
+  position: relative;
+  top: 200px;
+  border-radius: 12px;
+  padding: 10px 20px;
+  left: -20%;
+}
+.Carousel .CarouselText2 p {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+
+}
+.CarouselText2 {
+  width: 100%;
+  left: -39.3%;
+  margin: auto;
+  position: relative;
+  align-items: center;
+  z-index: 0;
+  top: -80%;
+}
+.form2 h2 {
+  position: relative;
+  top: 200px;
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+  top: 0;
+  background: conic-gradient(#f8cb00, #00f5b8, #03e1f1, #eeff00, rgb(0, 153, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 2000px 2000px;
+  animation: rgb 5s ease infinite;
+}
+.form2 {
+  border: 10px solid #f1f1f1;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+  position: relative;
+  border-radius: 12px;
+  margin: 100%;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+
+.Carousel .CarouselText3 p {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+
+}
+.CarouselText3 {
+  width: 100%;
+  left: -56%;
+  margin: auto;
+  position: relative;
+  top: -80%;
+  align-items: center;
+  z-index: 0;
+  
+}
+.form3 h2 {
+  position: relative;
+  top: 200px;
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+  top: 0;
+  background: conic-gradient(#f8cb00, #39f500, #1f6305, #eeff00, rgb(0, 82, 11));
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 2000px 2000px;
+  animation: rgb 5s ease infinite;
+}
+.form3 {
+  border: 10px solid #f1f1f1;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+  position: relative;
+  border-radius: 12px;
+  margin: 100%;
+  align-items: center;
+  padding: 10px 20px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1900px;
+  left: 5.2%;
+  height: 100%;
+  margin: auto;
+  top: -500px;
+}
